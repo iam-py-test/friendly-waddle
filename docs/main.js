@@ -5,7 +5,7 @@ var main = async function(){
   for(var t = 0; t < entries.length;t++){
     var data = entries[t]
     var entry = document.createElement('div')
-    var title = document.createElement("h4")
+    var title = document.createElement("h3")
     var a = document.createElement('a')
     a.href = "entry.html?id=" + t
     a.textContent = data.title
