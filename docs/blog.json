@@ -2,5 +2,9 @@
   {
     "title":"Test",
     "body":"This is an test.\nThis is another line of the test\n\nEven more lines\n\tA tab"
+  },
+  {
+    "title":"Introducing python-in-browser",
+    "body":"Python-in-browser is a project I have been working on which allows you to run Python code in your browser, sandboxed away from your system. \nI was inspired by https://github.com/raxod502/python-in-a-box, but python-in-browser has very few things in common. \nPython-in-a-box runs Python code on a server, so it has access to most of the good Python featues.\nPython-in-browser parses Python code in your browser, so it lacks most of those features. \nThe only good thing about Python-in-browser is the fact that it sends no requests to a server, so it works offline. (to some degree, and the page must be loaded with an internet connection)"
   }
   ]
