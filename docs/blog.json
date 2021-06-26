@@ -1,6 +1,6 @@
 [
   {
     "title":"Test",
-    "body":"This is an test."
+    "body":"This is an test.\nThis is another line of the test\n\nEven more lines\n\tA tab"
   }
   ]
