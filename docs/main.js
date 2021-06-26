@@ -13,10 +13,10 @@ var main = async function(){
     entry.appendChild(title)
     
     if(data.body.length < 10){
-    var summary = data.body
+    var summary = data.body.replaceAll("\\n","").replaceAll("\t","")
         }
     else{
-      var summary = data.body.slice(0,10) + "..."
+      var summary = data.body.slice(0,20).replaceAll("\n","").replaceAll("\t","") + "..."
     }
     var summarytxt = document.createElement('p')
     summarytxt.textContent = summary
