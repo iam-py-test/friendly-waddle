@@ -7,3 +7,5 @@ var main = async function(){
   document.getElementById('title').textContent = cEntry.title
   document.getElementById('body').innerText = cEntry.body
 }
+
+main()
