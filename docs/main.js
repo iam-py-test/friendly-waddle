@@ -22,3 +22,5 @@ var main = async function(){
     document.getElementById('entries').appendChild(entry)
   }
 }
+
+main()
