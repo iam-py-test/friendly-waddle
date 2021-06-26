@@ -16,7 +16,7 @@ var main = async function(){
     var summary = data.body.replaceAll("\\n","").replaceAll("\t","")
         }
     else{
-      var summary = data.body.slice(0,20).replaceAll("\n","").replaceAll("\t","") + "..."
+      var summary = data.body.replaceAll("\n","").replaceAll("\t","").slice(0,25) + "..."
     }
     var summarytxt = document.createElement('p')
     summarytxt.textContent = summary
