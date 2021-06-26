@@ -4,7 +4,7 @@ var main = async function(){
   var id = new URL(location).searchParams.get('id') * 0
   console.log(id,entries,entries[id])
   var cEntry = entries[id]
-  document.title = cEntry.title + " &middot; friendly-waddle"
+  document.title = cEntry.title + " · friendly-waddle"
   document.getElementById('title').textContent = cEntry.title
   document.getElementById('body').innerText = cEntry.body
 }
