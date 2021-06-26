@@ -2,7 +2,7 @@ var main = async function(){
   var req = await fetch("blog.json")
   var entries = JSON.parse(await req.text())
   console.log(entries)
-  for(var t = 0; t > entries.length;t++){
+  for(var t = 0; t < entries.length;t++){
     var data = entries[t]
     var entry = document.createElement('div')
     var a = document.createElement('a')
