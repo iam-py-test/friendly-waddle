@@ -5,5 +5,5 @@ a:not(.disabled):active{
   color:red;
 }
 .notdone{
-  color:yellow;
+  color:orange;
 }
