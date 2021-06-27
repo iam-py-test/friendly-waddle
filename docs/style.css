@@ -1,0 +1,6 @@
+a:not(.disabled){
+  color:blue;
+}
+a:not(.disabled):active{
+  color:red;
+}
