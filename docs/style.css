@@ -4,3 +4,6 @@ a:not(.disabled){
 a:not(.disabled):active{
   color:red;
 }
+.notdone{
+  color:yellow;
+}
