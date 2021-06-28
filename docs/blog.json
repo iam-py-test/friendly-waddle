@@ -13,8 +13,8 @@
     "body":"NoScript is a browser extention which allows you to selectivly allow or deny scripts. NoScript also provides protection against XSS (see https://en.wikipedia.org/wiki/xss), but I have never seen it block a real attack. \nHowever, its XSS protection was able to block all of the XSS tests I knew and all of the OWASP advanced ones I tested. "
   },
   {
-    "title":"Breaking down the helpmyos malware",
+    "title":"Tracking down fake Firefoxs",
     "workinprogress":true,
-    "body":""
+    "body":"The first results on a quick search 'Download firefox' are from Mozilla's website, but if you scroll down, there are a few other results that are not. \nSome of them seem legit, but others are a bit more suspicious. I clicked on the 9th result, and immediately it was blocked by the Blocklist Project malware (found here - https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt) due to its root domain.\nVirusTotal shows three detections for it, but the root domain had 4 and a poor community rating. A comment from 5 years ago says \"It's just a breeding ground for viruses! \".\nNorton's community reports are all from 9 or more years ago, and is rated poorly.\nFinally, MyWOT has one community rating from 6 years ago that marks it as low trust, and the icon at the top is orange.\n"
   }
   ]
