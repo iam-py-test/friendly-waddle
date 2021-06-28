@@ -11,5 +11,10 @@
     "title":"Why should you use NoScript?",
     "workinprogress":true,
     "body":"NoScript is a browser extention which allows you to selectivly allow or deny scripts. NoScript also provides protection against XSS (see https://en.wikipedia.org/wiki/xss), but I have never seen it block a real attack. \nHowever, its XSS protection was able to block all of the XSS tests I knew and all of the OWASP advanced ones I tested. "
+  },
+  {
+    "title":"Tracker scripts are spyware",
+    "workinprogress":true,
+    "body":"A lot of websites load 3rd party tracking scripts "
   }
   ]
