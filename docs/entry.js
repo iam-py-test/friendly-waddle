@@ -29,7 +29,7 @@ var main = async function(){
     document.getElementById('title').textContent = 'Entry not found'
     return;
   }
-    if(cEntry.workinprogress = true){
+    if(cEntry.workinprogress == true){
         document.getElementById('workin').hidden = false
     }
   document.title = cEntry.title + " · friendly-waddle"
