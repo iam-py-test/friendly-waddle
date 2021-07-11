@@ -4,6 +4,7 @@ var main = async function(){
   console.log(entries)
   for(var t = entries.length - 1; t >= 0;t--){
     var data = entries[t]
+    if(data.hidden === true){continue}
     var entry = document.createElement('div')
     var title = document.createElement("h3")
     var a = document.createElement('a')
