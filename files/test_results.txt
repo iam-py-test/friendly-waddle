@@ -1,0 +1,50 @@
+# https://curben.gitlab.io/malware-filter/urlhaus-filter.txt
+0-24bpautomentes.hu McAfee: Detected FortiGuard: Detected Norton: Caution Google: Safe Yandex: Safe
+0-app.com McAfee: Detected FortiGuard: Unrated Norton: Detected Google: Safe Yandex: Safe
+0-day.us McAfee: Caution FortiGuard: Detected Norton: Detected Google: Safe Yandex: Safe
+0.laomaotaowinpe.com McAfee: Safe FortiGuard: Safe Norton: Caution Google: Safe Yandex: Safe
+00.ofoghistanbul.com McAfee: Detected FortiGuard: Safe Norton: Detected Google: Safe Yandex: Safe
+000359.xyz McAfee: Detected FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+0007.name McAfee: Detected FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+002.allprimebeefisnotcreatedequal.com McAfee: Missed FortiGuard: Detected Norton: Caution Google: Missed Yandex: Missed
+0022a601.pphost.net McAfee: Caution FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+0026365.com McAfee: Missed FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+00294949493yur93.space McAfee: Detected FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+00399a4.netsolhost.com McAfee: Detected FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+009.tw McAfee: Detected FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+00filesbox.rookmin.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+00otg18ixk6o8kows.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+#https://curben.gitlab.io/malware-filter/pup-filter.txt
+123news.website McAfee: Missed FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+1browser.co McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+20patogh.com McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+2kddbl.club McAfee: Missed FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+321movies.xyz McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+4upgradingstablesafe.work McAfee: Missed FortiGuard: Missed Norton: Detected Google: Detected Yandex: Missed
+abeah-security.xyz McAfee: Missed FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+adrondespi.top McAfee: Missed FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+adtrackingflow.pro McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+akb48wrapup.com McAfee: Missed FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+altcasino.info McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+amateurxporn.com McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+amobil.online McAfee: Missed FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+animenation.org McAfee: Missed FortiGuard: Missed Norton: Missed Google: Missed Yandex: Missed
+apptool.me McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+# https://curben.gitlab.io/malware-filter/phishing-filter.txt
+000098.ihostfull.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+02-billing-support.org McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+036.trendsbygwen.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+058oft8.5q5e5o.cn McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+06e6f4d3bb4140516.temporary.link McAfee: Detected FortiGuard: Missed Norton: Detected Google: Missed Yandex: Missed
+07dd96.htmlcomponentservice.com McAfee: Detected FortiGuard: Detected Norton: Missed Google: Detected Yandex: Missed
+07iahn.5q5e5o.cn McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+0974xf3.zyrosite.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+0ee6ijc.5q5e5o.cn McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+0gxw7bc.lb6z4u3.cn McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+0s.nrxwo2lo.ozvs4y3pnu.cmla.ru McAfee: Detected FortiGuard: Detected Norton: Missed Google: Missed Yandex: Missed
+0wzyp3.5q5e5o.cn McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+0xpnkh.raphitari.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Missed Yandex: Missed
+100.elevetionb2b.com McAfee: Detected FortiGuard: Detected Norton: Detected Google: Detected Yandex: Missed
+101.32.192.174 McAfee: Detected FortiGuard: Missed Norton: Detected Google: Detected Yandex: Missed
+
+
