@@ -36,7 +36,7 @@ var main = async function(){
   document.getElementById('title').textContent = cEntry.title
   var encode = document.createElement('span')
   encode.innerText = cEntry.body
-  var linkedbody = linkify(encode.innerHTML)
+  var linkedbody = linkify(encode.innerHTML).replaceAll("[img]","<img src=\"").replaceAll("[/img]","\">")
   document.getElementById('body').innerHTML = linkedbody
 }
 
