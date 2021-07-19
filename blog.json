@@ -37,5 +37,12 @@
   {
     "title":"Testing Sucuri SiteCheck vs ransomware and malware",
     "body":"Sucuri SiteCheck is a tool which allows people to scan sites for malware and site issues, and check the site against common blocklists. It mainly exists to sell Sucuri's website cleanup tool, however, it does have some real malware detection, and we are testing that today. I am ignoring the 3rd party blocklists and just focusing on Sucuri's blocklist and malware detection.\nI am using URLHaus (here - https://curben.gitlab.io/malware-filter/urlhaus-filter.txt) and BlockList Project ransomware list. (here - https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt). Let the testing begin.\n\nIn the first test, we only had one detection, leaving it at 1/15. Onto the ransomware...\nOn the ransomware test, we get a 0/15 rating. This is so low detection, I am going to run 5 domains from PUP-filter (https://curben.gitlab.io/malware-filter/pup-filter.txt) through it.\nOn the PUP-filter, it is missing things that Google detected, and got 0/5. \nOverall rating is 1/35, which is low even for Google Safe Browsing (who got 5 out of far fewer). This puts Sucuri only one above Yandex, who failed to detect anything.\nStay safe!"
+  },
+  {
+    "title":"Test",
+    "body":"""
+    test
+    [img]https://raw.githubusercontent.com/iam-py-test/Assets-001/main/PUPs/SpeedCat/windows_defender_blocks.jpeg[/img]
+    """
   }
   ]
