@@ -40,9 +40,6 @@
   },
   {
     "title":"Test",
-    "body":"""
-    test
-    [img]https://raw.githubusercontent.com/iam-py-test/Assets-001/main/PUPs/SpeedCat/windows_defender_blocks.jpeg[/img]
-    """
+    "body":"test[img]https://raw.githubusercontent.com/iam-py-test/Assets-001/main/PUPs/SpeedCat/windows_defender_blocks.jpeg[/img]"
   }
   ]
