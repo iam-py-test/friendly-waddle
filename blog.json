@@ -53,7 +53,7 @@
   },
   {
   "title":"XSS test - Do not click",
-    "body":"[img]<b>XSS</b>[/img]
+    "body":"[img]<b>XSS</b>[/img]"
   }
   
   ]
