@@ -50,5 +50,10 @@
     "title":"Testing PCRisk's malware scanner",
     "workinprogress":true,
     "body":"There are a lot of tools out there for finding malware, and one I stumbled across was PcRisk's website scanner (here - https://scanner.pcrisk.com). It claims it is powered by the online tool Quttera, so I am curious if it just basically the same thing or not.\nI am also curious if this tool will do better than Sucuri SiteCheck. (To see the results of my test of Sucuri SiteCheck, see https://iam-py-test.github.io/friendly-waddle/entry.html?id=8)\nI will be using 15 domains from URLHaus (https://curben.gitlab.io/malware-filter/urlhaus-filter-online.txt), 15 domains from PUP filter (https://curben.gitlab.io/malware-filter/pup-filter.txt), and 15 domains from Phishing filter (https://curben.gitlab.io/malware-filter/phishing-filter.txt). As the scanner does check 3rd party source (including URLHaus), I am only counting Quttera Labs's detection.\nWeirdly, the scanner got stuck on number 2 and kept scanning it over and over without an result. I am not sure if this is an issue on my end or if the domain has some advanced defense. I did try curling it, and I got a timeout error. Maybe the tool does not handle timeouts? Whatever it is, I just had to stop the scan as it was getting nowhere.\n\nMalware: 14/15 PUPs: 0/15"
+  },
+  {
+  "title":"XSS test - Do not click",
+    "body":"[img]<b>XSS</b>[/img]
   }
+  
   ]
