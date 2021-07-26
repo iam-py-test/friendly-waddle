@@ -54,6 +54,9 @@
   {
   "title":"Beware of fake Windows alerts",
     "body":"Fake antivirus alerts have been around for a while, but consitering they keep poping up, some people sadly keep falling for them. \nThe purpose of this blog post is not to shame people who fall for these alerts, but to alert everyone of this threat.\nSome indicators of a scam are:\n- The alert is for an antivirus you don't use (i.e. it is for Norton, but you use McAfee)\n- The alert is for the wrong OS (i.e. Windows Defender alerts on a Mac)\n- The alert tells you to call a phone number (real AVs like Windows Defender, Malwarebytes, and Norton will only require a button click, or sometimes a UAC (user account control - Windows only), and many do it automatically. The most required is a reboot, and if it still can't remove it, then it will probably send you to its website.\n- Small errors, like a 'no action needed' status just above a warning, or part of an green icon showing. These can be hard to spot, and some scammers might fix them.\nWhile some of these scams have easy flaws, it is easy to still fall for these if you are in a hurry, and these steps are not scammerproof.\nIf you or someone you know falls for a scam like this, it is not their falt. The best defense is up-to-date antimalware protection. \nAs always, stay safe everyone!"
+  },
+  {
+    "title":"Malwarebytes VS PUPs",
+    "body":"Today I am testing Malwarebytes vs PUPs. I originally was going to run 16 PUPs on a test system protected by Malwarebytes, but once it decided to end my free trial, I had to switch to just scanning the folder.\nThere are 16 PUPs in the folder, most of which are pretty well known.\nThe end result was 10/16, which is not great...\nMost of these have been blocked on execution or later in the install, but this still shows not a very good signature-based detection. Weirdly, it even missed TotalAV, which is a well known & old PUP.\nHopefully next time I will be able to test the full real time protection. Stay safe everyone!"
   }
-  
   ]
