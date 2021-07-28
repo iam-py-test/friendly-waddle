@@ -1,5 +1,5 @@
 Phase 1 - generic malware test:
-  20 domains from URLHaus
+  20 domains from URLHaus (online)
   20 domains from PUP filter
   20 domains from Phishing filter
 Phase 2 - ransomware test:
