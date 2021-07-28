@@ -5,4 +5,4 @@ Phase 1 - generic malware test:
 Phase 2 - ransomware test:
   25 domains from BlockList Project ransomware
 Phase 3 - zero day defense:
-  10 domains collected within the last 24 hours
+  15 domains collected within the last 24 hours
