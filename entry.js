@@ -1,3 +1,4 @@
+"use strict";
 
 //from https://stackoverflow.com/a/2166104
 function linkify(inputText) {
@@ -24,7 +25,7 @@ var main = async function(){
   var id = new URL(location).searchParams.get('id') * 1
   console.log(id,entries,entries[id])
   var cEntry = entries[id]
-  if(cEntry === undefined || cEntry === null){
+  if(cEntry === undefined || cEntry === null || typeof cEntry !== "object" || cEntry === {}){
     document.title = "Entry not found"
     document.getElementById('title').textContent = 'Entry not found'
     return;
@@ -34,9 +35,7 @@ var main = async function(){
     }
   document.title = cEntry.title + " · friendly-waddle"
   document.getElementById('title').textContent = cEntry.title
-  var encode = document.createElement('span')
-  encode.innerText = cEntry.body
-  var linkedbody = linkify(encode.innerHTML).replaceAll("[img]","<img src=\"").replaceAll("[/img]","\">")
+  var linkedbody = linkify(cEntry.body).replaceAll("\n","<br>")
   document.getElementById('body').innerHTML = linkedbody
 }
 
