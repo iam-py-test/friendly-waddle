@@ -35,8 +35,8 @@ var main = async function(){
     }
   document.title = cEntry.title + " · friendly-waddle"
   document.getElementById('title').textContent = cEntry.title
-  var linkedbody = linkify(cEntry.body).replaceAll("\n","<br>")
-  document.getElementById('body').innerHTML = linkedbody
+  //var linkedbody = linkify(cEntry.body).replaceAll("\n","<br>")
+  document.getElementById('body').innerHTML = cEntry.body.replaceAll("\n","<br>")
 }
 
 main()
