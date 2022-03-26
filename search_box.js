@@ -7,6 +7,7 @@
     console.warn("Div 'search' does not exist, exiting...")
     return;
   }
+  searchDiv.textContent = "Search: "
   var input = document.createElement('input')
   input.type = 'search'
   input.onkeydown = function(e){
