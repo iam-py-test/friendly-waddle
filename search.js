@@ -18,7 +18,7 @@ results.textContent = 'No search term specified'
     var resultTitle = document.createElement('h3')
     var resultBody = document.createElement('div')
     resultTitleA.textContent = blog[i].title
-    resultTitleA.href = "/entry.html?id="+i
+    resultTitleA.href = "./entry.html?id="+i
     resultTitle.appendChild(resultTitleA)
     resultE.appendChild(resultTitle)
     if(blog[i].body.length < 55){
