@@ -16,11 +16,11 @@ var main = async function(){
     title.appendChild(a)
     entry.appendChild(title)
     
-    if(data.body.length < 55){
+    if(data.body.length < 65){
     var summary = data.body.replaceAll("\\n","").replaceAll("\t","")
         }
     else{
-      var summary = data.body.replaceAll("\n","").replaceAll("\t","").slice(0,55) + "..."
+      var summary = data.body.replaceAll("\n","").replaceAll("\t","").slice(0,65) + "..."
     }
     var summarytxt = document.createElement('p')
     summarytxt.textContent = summary
