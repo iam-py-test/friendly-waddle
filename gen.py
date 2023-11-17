@@ -38,22 +38,13 @@ homepage_base = """<!DOCTYPE html>
 		<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 		<title>My blog?</title>
-	<noscript>
-		<style>
-			#search {
-				display: none;
-			}
-		</style>
-	</noscript>
 	</head>
 	<body>
 		<h2>My Blog</h2>
-		<div id='search'></div>
 		<div id="entries">
 		{{entries}}
 		</div>
 		<a href="https://github.com/iam-py-test/friendly-waddle">Source code</a>
-		<script src='search_box.js'></script>
 	</body>
 </html>
 """
