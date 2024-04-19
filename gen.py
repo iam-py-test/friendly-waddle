@@ -61,7 +61,7 @@ for article in articles:
 	homepage_entry = homepage_entry_base.replace("{{url}}", article_url).replace("{{title}}", article_title).replace("{{desc}}", article["body"][:70] + "...")
 	homepage_entries.append(homepage_entry)
 	
-	entry_data = entry_base.replace("{{title}}", article_title).replace("{{body}}", article["body"])
+	entry_data = entry_base.replace("{{title}}", article_title).replace("{{body}}", article["body"].replace("\n", "<br>\n"))
 	entry_file = open(article_url, 'w')
 	entry_file.write(entry_data)
 	entry_file.close()
