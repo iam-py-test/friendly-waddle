@@ -17,6 +17,7 @@ entry_base = """<!DOCTYPE html>
 	</head>
 	<body>
 		<h1 id="title">{{title}}</h1>
+		<p>Posted on: {{post_date}}</p>
 		<div id='body'>
 			{{body}}
 		</div>
@@ -63,10 +64,14 @@ for article in articles:
 		preview = article["body"].replace("\t"," ")[:70] + "..."
 	except:
 		preview = "No preview"
+	if "posted_on" in article:
+		posted_on = article["posted_on"]
+	else:
+		posted_on = "Unknown"
 	homepage_entry = homepage_entry_base.replace("{{url}}", article_url).replace("{{title}}", article_title).replace("{{desc}}", preview)
 	homepage_entries.append(homepage_entry)
 	
-	entry_data = entry_base.replace("{{title}}", article_title).replace("{{body}}", article["body"].replace("\n", "<br>\n"))
+	entry_data = entry_base.replace("{{title}}", article_title).replace("{{body}}", article["body"].replace("\n", "<br>\n").replace("{{post_date}}", posted_on))
 	entry_file = open(article_url, 'w', encoding="UTF-8")
 	entry_file.write(entry_data)
 	entry_file.close()
