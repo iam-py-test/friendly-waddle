@@ -5,7 +5,7 @@ try:
 except:
 	pass
 
-articles = json.loads(open("blog.json").read())
+articles = json.loads(open("blog.json", encoding="UTF-8").read())
 
 article_page = ""
 entry_base = """<!DOCTYPE html>
@@ -56,16 +56,22 @@ for article in articles:
 		if article["hidden"] == True:
 			continue
 	article_title = article["title"]
-	article_url = "pages/" + article_title.replace(" ", "_").replace("\"", "").replace("/", "-") + ".html"
-	article_file = open(article_url, 'w')
-	homepage_entry = homepage_entry_base.replace("{{url}}", article_url).replace("{{title}}", article_title).replace("{{desc}}", article["body"][:70] + "...")
+	article_url = "pages/" + article_title.replace(" ", "_").replace("\"", "").replace("/", "-").replace(":", "_") + ".html"
+	print(article_url)
+	article_file = open(article_url, 'w', encoding="UTF-8")
+	try:
+		preview = article["body"].replace("\t"," ")[:70] + "..."
+	except:
+		preview = "No preview"
+	homepage_entry = homepage_entry_base.replace("{{url}}", article_url).replace("{{title}}", article_title).replace("{{desc}}", preview)
 	homepage_entries.append(homepage_entry)
 	
 	entry_data = entry_base.replace("{{title}}", article_title).replace("{{body}}", article["body"].replace("\n", "<br>\n"))
-	entry_file = open(article_url, 'w')
+	entry_file = open(article_url, 'w', encoding="UTF-8")
 	entry_file.write(entry_data)
 	entry_file.close()
 
 homepage_file = open("index.html", "w")
+print(homepage_entries)
 homepage_file.write(homepage_base.replace("{{entries}}", "\n".join(homepage_entries)))
 homepage_file.close()
