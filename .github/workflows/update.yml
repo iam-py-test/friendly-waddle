@@ -15,6 +15,7 @@ jobs:
     - name: Build new blog
       run: |
         pip3 --version
+        pip3 install beautifulsoup4
         python3 gen.py
         echo Cleaning up...
     - name: Commit & Push
