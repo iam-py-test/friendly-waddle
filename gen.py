@@ -61,7 +61,8 @@ for article in articles:
 	print(article_url)
 	article_file = open(article_url, 'w', encoding="UTF-8")
 	try:
-		preview = article["body"].replace("\t"," ").replace("&emsp;","")[:300] + "..."
+		article_soup = BeautifulSoup(article["body"].replace("\t"," ").replace("&emsp;",""),'html.parser')
+		preview = article_soup.get_text()[:300] + "..."
 	except:
 		preview = "No preview"
 	if "posted_on" in article:
