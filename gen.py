@@ -1,4 +1,4 @@
-import json, os
+import json, os, re
 from bs4 import BeautifulSoup
 
 try:
@@ -62,8 +62,9 @@ for article in articles:
 	print(article_url)
 	article_file = open(article_url, 'w', encoding="UTF-8")
 	try:
-		article_soup = BeautifulSoup(article["body"].replace("\t"," ").replace("&emsp;","").replace("<br>", "").replace("\n", ""),'html.parser')
-		preview = article_soup.get_text()[:300].strip() + "..."
+		article_soup = BeautifulSoup(article["body"].replace("\t"," ").replace("&emsp;","").replace("<br>", " ").replace("\n", " "),'html.parser')
+		article_text = re.sub("\s{2,}", " ", article_soup.get_text()).strip()
+		preview = article_text[:300].strip() + "..."
 	except:
 		preview = "No preview"
 	if "posted_on" in article:
