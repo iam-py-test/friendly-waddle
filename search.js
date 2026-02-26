@@ -23,10 +23,10 @@ results.textContent = 'No search term specified'
     resultTitle.appendChild(resultTitleA)
     resultE.appendChild(resultTitle)
     if(blog[i].body.length < 55){
-    var summary = blog[i].body.replaceAll("\\n","").replaceAll("\t","")
+    var summary = blog[i].body.replaceAll("\\n","").replaceAll("\t","").replace("&emsp;","")
         }
     else{
-      var summary = blog[i].body.replaceAll("\n","").replaceAll("\t","").slice(0,55) + "..."
+      var summary = blog[i].body.replaceAll("\n","").replaceAll("\t","").replace("&emsp;","").slice(0,55) + "..."
     }
     resultBody.textContent = summary
     resultE.appendChild(resultBody)
