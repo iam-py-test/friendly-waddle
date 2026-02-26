@@ -60,8 +60,8 @@ for article in articles:
 	article_url = "pages/" + article_title.replace(" ", "_").replace("\"", "").replace("/", "-").replace(":", "_") + ".html"
 	print(article_url)
 	article_file = open(article_url, 'w', encoding="UTF-8")
+	article_soup = BeautifulSoup(article["body"].replace("\t"," ").replace("&emsp;",""),'html.parser')
 	try:
-		article_soup = BeautifulSoup(article["body"].replace("\t"," ").replace("&emsp;",""),'html.parser')
 		preview = article_soup.get_text()[:300] + "..."
 	except:
 		preview = "No preview"
